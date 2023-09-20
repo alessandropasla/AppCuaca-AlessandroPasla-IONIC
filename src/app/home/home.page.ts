@@ -36,29 +36,29 @@ export class HomePage implements OnInit {
   setWeatherIcon(iconCode: string) {
     switch (iconCode) {
       case '01d':
-        this.weatherIcon = 'sunny';
+        this.weatherIcon = 'cerah';
         break;
       case '02d':
-        this.weatherIcon = 'partly-sunny';
+        this.weatherIcon = 'sebagian-cerah';
         break;
       case '03d':
       case '04d':
-        this.weatherIcon = 'cloudy';
+        this.weatherIcon = 'berawan';
         break;
       case '09d':
-        this.weatherIcon = 'rainy';
+        this.weatherIcon = 'hujan';
         break;
       case '10d':
-        this.weatherIcon = 'rainy-outline';
+        this.weatherIcon = 'hujan ringan';
         break;
       case '11d':
-        this.weatherIcon = 'thunderstorm';
+        this.weatherIcon = 'badai petir';
         break;
       case '50d':
-        this.weatherIcon = 'cloud';
+        this.weatherIcon = 'berawan';
         break;
       default:
-        this.weatherIcon = 'partly-sunny';
+        this.weatherIcon = 'sebagian-cerah';
         break;
     }
   }
