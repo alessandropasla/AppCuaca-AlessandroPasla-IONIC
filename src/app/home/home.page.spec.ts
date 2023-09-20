@@ -10,7 +10,7 @@ describe('HomePage', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [HomePage],
-      imports: [IonicModule.forRoot()]
+      imports: [IonicModule.forRoot()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(HomePage);
@@ -20,5 +20,5 @@ describe('HomePage', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
-  });
+  });
 });
